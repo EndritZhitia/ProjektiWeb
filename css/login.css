@@ -1,0 +1,243 @@
+
+body{
+    margin: 0;
+    padding: 0;
+}
+.header-div{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    width:100%;
+    height: 100px;
+    background-color: rgb(64, 173, 185);
+}
+.logo-div{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width:300px;
+    height:100px;
+}
+.logo-div img{
+    width: 250px;
+    height: 100px;
+}
+.searchBar-div{
+    display: flex;
+    justify-content: center;
+    width: 600px;
+}
+.searchBar-div #search{
+    width: 400px;
+    height: 40px;
+    border-radius: 10px;
+    border: transparent;
+}
+.searchBar-div #search-Button{
+    width: 100px;
+    background-color: rgb(117, 132, 196);
+    font-size: 15px;
+    border-radius: 10px;
+    border: transparent;
+    margin-left: 10px;
+}
+#search-Button:hover{
+    background-color: rgb(69, 81, 185);
+}
+.nav-div{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    height: 100px;
+    width: 500px;
+}
+.nav-list{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    
+}
+.nav-list li{
+    margin-left: 10px;
+    list-style: none;
+    font-size: 20px;
+}
+.nav-list li a{
+    text-decoration: none;
+    color: white;
+}
+#dropdown-div{
+    display: none;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    padding: 5px;
+    z-index: 1;
+    border: 1px solid red;
+}
+#dropdown-div a{
+    font-size: 12pt;
+    font-family: 'Rubik',sans-serif;
+    margin-top: 7px;
+    color: black;
+    
+}
+#dropdown-div a:hover{
+    background-color: rgb(202, 183, 183);
+}
+#products:hover #dropdown-div{
+    display: flex;
+    flex-direction: column;
+    justify-items: right;
+  
+}
+
+
+.main-div{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 0px;
+    background-color: white;
+    
+}
+.logIn-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1000px;
+    
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(70, 152, 197);
+    width: 40%;
+    
+}
+.logIn-form-div input{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(225, 225, 193);
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
+    margin-bottom: 10px;
+    width: 500px;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    margin-top: 20px;
+    
+}
+
+.logIn-form-div a{
+    text-decoration: none;
+    margin-top: 7px;
+    margin-bottom: 15px;
+}
+.button-class{
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    border: transparent;
+    background-color: rgb(206, 206, 255);
+}
+.logIn-form-div hr{
+    width: 100%;
+    background-color: black;
+    margin-top: 15px;
+}
+.logIn-form-div p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 5px;
+}
+.logIn-div {
+    background-color: rgb(255, 255, 255);
+}
+
+
+.logIn-div .button-class {
+    background-color: rgb(63, 63, 221);
+
+}
+
+/* footer*/ 
+
+.footer-div{
+    margin-top: 10px;
+    background-color: rgb(148, 171, 197);
+}
+.stay-connected-div{
+    background-color: white;
+}
+
+.Payment-methods-div{
+    background-color: white;
+}
+
+.about-us{
+    background-color: rgb(255, 255, 255);
+}
+
+.stay-connected-div{
+    display: flex;
+    align-items: center;
+    width: 450px;
+    height: 300px;
+    flex-direction: column;
+    border: 1px solid black;
+}
+.imgL-div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 220px;
+    height: 220px;
+}
+.imgL-div img{
+    width: 80px;
+    height: 80px;
+}
+.footer-div{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.about-us{
+    width: 450px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+}
+.a-div{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.a-div a{
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+.Payment-methods-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 450px;
+    height: 300px;
+    border: 1px solid black;
+}
+.card-logo-div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 220px;
+    height: 220px;
+}
+.card-logo-div img{
+    width: 80px;
+    height: 60px;
+}
+
